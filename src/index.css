@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Cabin&family=Port+Lligat+Slab&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+ 
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  /* background-image: url("https://i.pinimg.com/originals/9f/d4/0e/9fd40eb024ae9ba994fe0eed91db1bdf.jpg"); */
+  background-color: #a96ad5;
+  background-size:cover;             
+  background-repeat:no-repeat;
+  font-family: 'Abyssinica SIL', serif;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Port Lligat Slab', serif;
+}
+body{
+  background-image: url("https://i.pinimg.com/originals/9f/d4/0e/9fd40eb024ae9ba994fe0eed91db1bdf.jpg");
+  background-size:cover;             
+  background-repeat:no-repeat;
+    
+}
+h1,p,a{
+  color:rgba(106, 0, 111, 0.689);
+  text-decoration: none;
+
+}
+h1,p,a:hover{
+  color:rgba(252, 47, 7, 0.689);
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-image: url("https://wallpapercave.com/wp/wp7213377.jpg");
+  color:#722e97;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light{
+  background: transparent;
+  color: whitesmoke;
+}
+.btn:hover{
+  background: antiquewhite;
+  color: black;
+  transition: 0.35;
 }

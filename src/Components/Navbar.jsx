@@ -1,46 +1,62 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { FaBars, FaTimes } from "react-icons/fa";
+import {FaBars, FaTimes} from "react-icons/fa"
+
 const Navbar = () => {
 
-    const[click,setClick] = useState(false);
-    const handleClick =() =>{
-        setClick(!click);
+  const [click , setClick] = useState(false)
+  const [color ,setColor] = useState(false)
+
+  const changeColor = () =>{
+    if(window.scrollY >= 100){
+      setColor(true)
+    }else{
+      setColor(false)
     }
+  }
+
+  window.addEventListener("scroll" , changeColor);
+
+  const handleClick = () =>{
+    setClick(!click)
+  }
   return (
     <>
-      <div className="header">
-        <Link to="/">
-          <img
-            src="https://images.assetsdelivery.com/compings_v2/arum23/arum232102/arum23210200032.jpg"
-            alt=""
-            className="logo"
-          />
-          {/* <h4>Gaurav Sudhanshu</h4> */}
-        </Link>
-        <ul className="menu">
-          <li>
-            <Link to="/">Home</Link>
+    <div className={color ? "header header-bg" :"header"}>
+      <Link to="/">
+        <h1>Portfolio</h1>
+      </Link>
+      <ul className={click ? "menu active" :"menu"}>
+        <li>
+          <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+          <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/project">Projects</Link>
+          <Link to="/project">Project</Link>
           </li>
           <li>
-            <Link to="/contact">Contact Me</Link>
+          <Link to="/contact">Contact</Link>
           </li>
-        </ul>
-        <div className="hamburger" onClick={handleClick}>
-        {click ? (<FaTimes size={20} style={{ color: "#fff" }} />):
-        (<FaBars size={20} style={{ color: "#fff" }} />)
-        }
-          
-          
-        </div>
+        
+      </ul>
+      <div className="menu-icon" onClick={handleClick}>
+      {
+        click ? 
+        (<FaTimes size ={25} style={{color:"white"}}/>)
+        :
+        ( <FaBars size ={25} style={{color:"white"}}/>)
+
+        
+      }
+       
+        
       </div>
+      
+    </div>
+    {/* <button className="btn">Hello Gaurav</button> */}
     </>
   );
 };

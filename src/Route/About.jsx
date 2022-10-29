@@ -9,8 +9,8 @@ const About = () => {
     <div>
       <Navbar />
       <BackGround heading ="About Me"
-       text="I am friendly Front-End Developer"/>
-       
+       text="I am friendly Front-End Developer" />
+       <About />
       <Footer />
     </div>
   )

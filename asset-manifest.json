@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ba74a115.css",
-    "main.js": "/static/js/main.25ffe5af.js",
+    "main.js": "/static/js/main.8ababeea.js",
     "static/media/dermStore.png": "/static/media/dermStore.557f30e4f9fa817ef27a.png",
     "static/media/Bellavita.png": "/static/media/Bellavita.9ea87bd9646502316361.png",
     "static/media/Animoto.png": "/static/media/Animoto.001ad214e2da2e0d116b.png",
@@ -9,10 +9,10 @@
     "static/media/logo.png": "/static/media/logo.fcdcfa2a21af5bf946d7.png",
     "index.html": "/index.html",
     "main.ba74a115.css.map": "/static/css/main.ba74a115.css.map",
-    "main.25ffe5af.js.map": "/static/js/main.25ffe5af.js.map"
+    "main.8ababeea.js.map": "/static/js/main.8ababeea.js.map"
   },
   "entrypoints": [
     "static/css/main.ba74a115.css",
-    "static/js/main.25ffe5af.js"
+    "static/js/main.8ababeea.js"
   ]
 }

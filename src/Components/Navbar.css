@@ -12,6 +12,8 @@
 .header-bg{
     background-color: #272725;
     transition: 0.8s;
+    
+
 }
 .menu{
     display: flex;

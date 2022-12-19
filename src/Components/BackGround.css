@@ -1,7 +1,6 @@
 .bg-Img{
     width: 100%;
     background:#272725;
-    height: 70vh;
     position: relative;
     
    
@@ -26,6 +25,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top:3rem;
+   
     
 }
 .bg-Img h1{
@@ -36,9 +37,10 @@
 
 }
 .bg-Img p{
+  
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width:30%;
-    height:200px;
+    width:40%;
+    height:auto;
     font-size:1.5rem;
     padding: 2rem 1rem ;
     color: teal;

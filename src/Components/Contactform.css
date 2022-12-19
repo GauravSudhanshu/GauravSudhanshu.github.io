@@ -1,0 +1,33 @@
+label{
+    color: white;
+    margin-bottom:10px ;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+    
+}
+form input , form textarea{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color:#696969; 
+    color: whitesmoke;
+}
+.formbtn{
+
+width: 100px;
+margin: auto;
+height: 40px;
+font-weight: bold;
+font: size 15px;
+background-color:#696969 ;
+color: whitesmoke;
+border: 5px solid greenyellow;
+cursor: pointer;
+}

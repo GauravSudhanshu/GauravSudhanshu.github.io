@@ -7,7 +7,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
-
+   
 }
 .into-img{
     width: 100%;
@@ -29,19 +29,21 @@
 
 }
 .blank .content{
+    width:50%;
     display: flex;
     position: absolute;
     transform: translate(50% , 50%);
-    top: 5%;
+    top: 20px;
     right: 50%;
-    text-align: center;
+   text-align: center;
 
 }
 .blank .content h1{
     font-size: 2rem;
-    padding: 0.6rem 0 1.5rem;
     text-transform:capitalize;
     
+    text-align: center;
+    margin-left: 30px;
 }
 /* .blank .content p{
     font-size: 1.4rem;
@@ -53,9 +55,9 @@
 } */
 .blank .content h3{
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-    width:70%;
-    /* border: 1px solid red; */
-    font-size:2rem;
+    width:100%;
+   
+    font-size:1.5rem;
     font-weight:150;
     text-transform: uppercase;
     color: rgb(119, 187, 184);
@@ -71,7 +73,7 @@
     margin-top: 50px;
 }
 .content .btn-light{
-    
+    justify-content: center;
     margin-top: 50px;
     color: rgb(255, 0, 0);
     letter-spacing: 2px;

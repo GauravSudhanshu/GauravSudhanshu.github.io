@@ -41,4 +41,16 @@
     justify-content: center;
     background-color: antiquewhite;
 }
+.gitImage{
+   
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   place-items: center;
+   gap: 10px;
+  
+}
+.gitImage img {
+    box-shadow: rgba(195, 20, 20, 0.35) 0px 5px 15px;
+   
+}
 

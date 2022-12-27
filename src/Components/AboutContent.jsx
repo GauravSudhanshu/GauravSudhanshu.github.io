@@ -9,7 +9,9 @@ import react from "../assets/react.png"
 import node from "../assets/node-js.png"
 import redux from "../assets/redux.png"
 import mongodb from "../assets/mongodb.png"
-
+import GithubStats from "../assets/GithubStats.jpg"
+import Contributions from "../assets/Contributions.jpg"
+import contributionDots from "../assets/contributionDots.jpg"
 const AboutContent = () => {
   return (
     <>
@@ -26,6 +28,11 @@ const AboutContent = () => {
         </div>
         <div className="right">
           <h1 className="skill">My Skills</h1>
+          <div className="gitImage">
+            <img src={GithubStats} alt="" />
+            <img src={Contributions} alt="" />
+            <img src={contributionDots} alt="" />
+          </div>
           <div className="skill-img">
           <img src={html5} alt="" />
           <img src={css3} alt="" />

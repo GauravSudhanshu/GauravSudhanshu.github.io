@@ -8,8 +8,24 @@ import Contact from './Contact'
 
 
 const Home = () => {
+  // let Component 
+  //   switch (window.location.pathname) {
+  //     case "/":
+  //       Component = App
+  //       break;
+  //       case "/":
+  //         Component = Home
+  //         break;
+  //         case "/":
+  //         Component = Home
+  //         break;
+    
+  //     default:
+  //       break;
+  //   }
+  
   return (
-    <div>
+    <div id='home'>
       <Navbar />
       <BlankMenu />
       <About />

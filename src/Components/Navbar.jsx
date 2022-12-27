@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../assets/logo.png";
@@ -29,19 +29,19 @@ const Navbar = () => {
         </Link>
         <ul className={click ? "menu active" : "menu"}>
           <li>
-            <Link to="/">Home</Link>
+          <Link activeClass="active" smooth spy to="home" >Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link activeClass="active" smooth spy to="about">About</Link>
           </li>
           <li>
-            <Link to="/project">Project</Link>
+            <Link activeClass="active" smooth spy to="project">Project</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link activeClass="active" smooth spy to="contact">Contact</Link>
           </li>
           <li>
-            <Link to="/resume">Resume</Link>
+            <Link activeClass="active" smooth spy to="resume">Resume</Link>
           </li>
         </ul>
         <div className="menu-icon" onClick={handleClick}>

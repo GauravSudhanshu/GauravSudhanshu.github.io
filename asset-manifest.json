@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba74a115.css",
-    "main.js": "/static/js/main.8ababeea.js",
+    "main.css": "/static/css/main.bf6f3044.css",
+    "main.js": "/static/js/main.ba950348.js",
     "static/media/dermStore.png": "/static/media/dermStore.557f30e4f9fa817ef27a.png",
     "static/media/Bellavita.png": "/static/media/Bellavita.9ea87bd9646502316361.png",
     "static/media/Animoto.png": "/static/media/Animoto.001ad214e2da2e0d116b.png",
     "static/media/MyImage.png": "/static/media/MyImage.23b2ad6541f74a8485eb.png",
+    "static/media/react.png": "/static/media/react.d2f858cd34386e69caee.png",
+    "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
+    "static/media/contributionDots.jpg": "/static/media/contributionDots.933eee6b292b78f75153.jpg",
+    "static/media/css3.png": "/static/media/css3.a2e48fd8cc48f3546f17.png",
+    "static/media/javascript.png": "/static/media/javascript.4639c895c33d52eebeff.png",
+    "static/media/html5.png": "/static/media/html5.513071a6682dc6800ad0.png",
+    "static/media/node-js.png": "/static/media/node-js.20d4263f29baf2e28f42.png",
+    "static/media/GithubStats.jpg": "/static/media/GithubStats.c9618c9e2662236f657a.jpg",
+    "static/media/Contributions.jpg": "/static/media/Contributions.616a16c1ff22f3d4c1bf.jpg",
     "static/media/logo.png": "/static/media/logo.fcdcfa2a21af5bf946d7.png",
+    "static/media/redux.png": "/static/media/redux.96ec8789749099e183de.png",
     "index.html": "/index.html",
-    "main.ba74a115.css.map": "/static/css/main.ba74a115.css.map",
-    "main.8ababeea.js.map": "/static/js/main.8ababeea.js.map"
+    "main.bf6f3044.css.map": "/static/css/main.bf6f3044.css.map",
+    "main.ba950348.js.map": "/static/js/main.ba950348.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba74a115.css",
-    "static/js/main.8ababeea.js"
+    "static/css/main.bf6f3044.css",
+    "static/js/main.ba950348.js"
   ]
 }
